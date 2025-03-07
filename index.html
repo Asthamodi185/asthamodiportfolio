@@ -1,494 +1,537 @@
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-    Astha Modi
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
-  <style>
-    :root {
-    --body-color: #ddd;
-    --primary-color: #8750f7;
-    --primary-color-light: #140c1c;
-    --secondary-color: #2a1454;
-    --white-color: #fff;
-    --off-white-color: #f6f3fc;
-    --black-color: #050709;
-    --gray-color: #d9d9d9;
-    --gray-color2: #747779;
-    --gray-color3: #22272c;
-    --accent-color: #170b1f;
-    --cream-light-color: #f6f3fc;
-    --body-font: "Sora", sans-serif;
-    --russo: "Russo One", sans-serif;
-    --font-family: "Font Awesome 6 Pro";
-}
-   body {
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Astha Modi
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap" rel="stylesheet" />
+    <style>
+        :root {
+            --body-color: #ddd;
+            --primary-color: #8750f7;
+            --primary-color-light: #140c1c;
+            --secondary-color: #2a1454;
+            --white-color: #fff;
+            --off-white-color: #f6f3fc;
+            --black-color: #050709;
+            --gray-color: #d9d9d9;
+            --gray-color2: #747779;
+            --gray-color3: #22272c;
+            --accent-color: #130420;
+            --accent-color-2: #22003a99;
+            --cream-light-color: #f6f3fc;
+            --body-font: "Sora", sans-serif;
+            --russo: "Russo One", sans-serif;
+            --font-family: "Font Awesome 6 Pro";
+        }
+
+        body {
             font-family: 'Inter', sans-serif;
         }
-  </style>
- </head>
- <body class="bg-[var(--black-color)] text-white">
+    </style>
+</head>
+
+<body class="bg-[var(--black-color)] text-white">
 
     <!--header-->
-  <header class="flex justify-between items-center p-6">
-   <div class="flex items-center space-x-4">
-    <img alt="Logo" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/3j3jVJ-dO2O5eXHEVW4c36Ve-wN8YMC6kSq-pO4Slgo.jpg" width="40"/>
-    <span class="text-sm">
-     asthamodi185@gmail.com
-    </span>
-   </div>
-   <nav class="hidden md:flex space-x-8">
-    <a class="text-white hover:text-purple-400" href="#">
-     Services
-    </a>
-    <a class="text-white hover:text-purple-400" href="#">
-     Works
-    </a>
-    <a class="text-white hover:text-purple-400" href="#">
-     Resume
-    </a>
-    <a class="text-white hover:text-purple-400" href="#">
-     Skills
-    </a>
-    <a class="text-white hover:text-purple-400" href="#">
-     Contact
-    </a>
-   </nav>
-   <a class="bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)]" href="#">
-    Hire Me!
-   </a>
-  </header>
+    <header class="flex justify-between items-center p-6 sticky top-0 bg-black">
+        <div class="flex items-center space-x-4">
+            <img alt="Logo" class="w-10 h-10" height="40"
+                src="https://storage.googleapis.com/a1aa/image/3j3jVJ-dO2O5eXHEVW4c36Ve-wN8YMC6kSq-pO4Slgo.jpg"
+                width="40" />
+            <span class="text-sm">
+                asthamodi185@gmail.com
+            </span>
+        </div>
+        <nav class="hidden md:flex space-x-8">
+            <a class="text-white hover:text-purple-400" href="#service">
+                Services
+            </a>
+            <a class="text-white hover:text-purple-400" href="#project">
+                Works
+            </a>
+            <a class="text-white hover:text-purple-400" href="#">
+                Resume
+            </a>
+            <a class="text-white hover:text-purple-400" href="#skills">
+                Skills
+            </a>
+            <a class="text-white hover:text-purple-400" href="#contact">
+                Contact
+            </a>
+        </nav>
+        <a class="text-white py-2 px-4 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)]"
+            href="#">
+            Hire Me!
+        </a>
+    </header>
 
 
-  <!--home section-->
-  <main class="flex flex-col md:flex-row items-center justify-between p-6 md:p-20 min-h-screen">
-   <div class="text-center md:text-left md:w-1/2 space-y-6">
-    <h1 class="text-2xl md:text-4xl font-bold">
-     I am Astha Modi
-    </h1>
-    <h2 class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
-     Web Developer & UI/UX Designer
+    <!--home section-->
+    <section id="home">
+        <main class="flex flex-col md:flex-row items-center justify-between p-6 md:p-20 min-h-screen">
+            <div class="text-center md:text-left md:w-1/2 space-y-6">
+                <h1 class="text-2xl md:text-4xl font-bold">
+                    I am Astha Modi
+                </h1>
+                <h2
+                    class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
+                    Web Developer & UI/UX Designer
 
-    </h2>
-    
-    <p class="text-gray-400">
-        I'm a passionate Web Developer and UI/UX Designer who crafts engaging digital experiences. I blend clean, efficient code with intuitive and user-centered design to create websites and applications that are both beautiful and functional. Let's build something amazing together!    </p>
-    <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
-     <a class="bg-[var(--primary-color)] hover:bg-purple-700 text-white py-2 px-6 rounded-full flex items-center space-x-2" href="#">
-      <span>
-       Download CV
-      </span>
-      <i class="fas fa-download">
-      </i>
-     </a>
-     <div class="flex space-x-4">
-      <a class="text-white hover:text-purple-400" href="#">
-       <i class="fab fa-twitter">
-       </i>
-      </a>
-      <a class="text-white hover:text-purple-400" href="#">
-       <i class="fab fa-dribbble">
-       </i>
-      </a>
-      <a class="text-white hover:text-purple-400" href="#">
-       <i class="fab fa-linkedin">
-       </i>
-      </a>
-      <a class="text-white hover:text-purple-400" href="#">
-       <i class="fab fa-github">
-       </i>
-      </a>
-     </div>
-    </div>
-   </div>
-   <div class="mt-10 md:mt-0 md:w-1/2 flex justify-center">
-    <img alt="Portrait of Gerold" class="rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/9IrJdu84yHmeHi9KuyWtMslOgUKZUFZ99ukIbA0slgA.jpg" width="400"/>
-   </div>
-  </main>
-
-
-  <!--Quality Services-->
-  <main class="p-6 min-h-screen">
-    <section class="text-center mb-12">
-     <h1 class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
-      My Quality Services
-     </h1>
-
-
-     <p class="mt-4 text-gray-400">
-      We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.
-     </p>
-    </section>
-    <section class="space-y-4">
-     <div class="flex items-center justify-between p-4 bg-purple-600 rounded-lg">
-      <div class="flex items-center space-x-4">
-       <span class="text-white text-lg font-bold">
-        01
-       </span>
-       <h2 class="text-white text-lg font-bold">
-        Web Development
-       </h2>
-      </div>
-      <p class="text-white">
-        Crafting responsive, high-performance websites with clean, scalable code to elevate your online presence.      </p>
-      <i class="fas fa-arrow-right text-white">
-      </i>
-     </div>
-     <div class="flex items-center justify-between p-4 bg-black border-b border-gray-700">
-      <div class="flex items-center space-x-4">
-       <span class="text-purple-500 text-lg font-bold">
-        02
-       </span>
-       <h2 class="text-white text-lg font-bold">
-        UI/UX Design
-       </h2>
-      </div>
-      <p class="text-gray-400">
-        Designing intuitive, visually stunning interfaces that provide exceptional user experiences across all devices.      </p>
-      <i class="fas fa-arrow-right text-purple-500">
-      </i>
-     </div>
-     <div class="flex items-center justify-between p-4 bg-black border-b border-gray-700">
-      <div class="flex items-center space-x-4">
-       <span class="text-purple-500 text-lg font-bold">
-        03
-       </span>
-       <h2 class="text-white text-lg font-bold">
-        Content Writing
-       </h2>
-      </div>
-      <p class="text-gray-400">
-        Optimizing websites to boost search engine rankings, drive organic traffic, and increase conversion rates.      </p>
-      <i class="fas fa-arrow-right text-purple-500">
-      </i>
-     </div>
-   
-    </section>
-   </main>
-
-<!--education-->
-
-    </div>
-    <div class="min-h-screen flex items-center justify-center p-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl">
-          
-            <div>
-                <h2 class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500 mb-16">
-                     My Experience
                 </h2>
-                <div class="space-y-8">
-                    <div class="bg-[var(--accent-color)] p-4 rounded-2xl ">
-                        <p class="text-[var(--primary-purple)] text-sm mb-1">July 2024 – Present</p>
-                        <h3 class="text-xl font-bold mb-1">SEO  Analyst</h3>
-                        <p class="text-gray-400">WeConnect Soft Solutions Pvt. Ltd. , kota
-                        </p>
+
+                <p class="text-gray-400">
+                    I'm a passionate Web Developer and UI/UX Designer who crafts engaging digital experiences. I blend
+                    clean, efficient code with intuitive and user-centered design to create websites and applications
+                    that
+                    are both beautiful and functional. Let's build something amazing together! </p>
+                <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
+                    <a class="bg-[var(--primary-color)] hover:bg-purple-700 text-white py-2 px-6 rounded-full flex items-center space-x-2"
+                        href="#">
+                        <span>
+                            Download CV
+                        </span>
+                        <i class="fas fa-download">
+                        </i>
+                    </a>
+                    <div class="flex space-x-4">
+                        <a class="text-white hover:text-purple-400" href="#">
+                            <i class="fab fa-twitter">
+                            </i>
+                        </a>
+                        <a class="text-white hover:text-purple-400" href="#">
+                            <i class="fab fa-dribbble">
+                            </i>
+                        </a>
+                        <a class="text-white hover:text-purple-400" href="#">
+                            <i class="fab fa-linkedin">
+                            </i>
+                        </a>
+                        <a class="text-white hover:text-purple-400" href="#">
+                            <i class="fab fa-github">
+                            </i>
+                        </a>
                     </div>
-                    <div class="p-6 bg-[var(--accent-color)]  rounded-2xl">
-                        <p class="text-[var(--primary-purple)] text-sm mb-1">Dec 2023 – March 2024</p>
-                        <h3 class="text-xl font-bold mb-1">UI/UX Designing</h3>
-                        <p class="text-gray-400">Clickzy Creative Technologies</p>
+                </div>
+            </div>
+            <div class="mt-10 md:mt-0 md:w-1/2 flex justify-center">
+                <img alt="Portrait of Gerold" class="rounded-lg" height="400" src="document/photo.gif" width="400" />
+            </div>
+        </main>
+    </section>
+
+    <!--Quality Services-->
+    <section id="service">
+        <div class="p-6 min-h-screen flex flex-col justify-center p-8">
+            <div class="text-center mb-24">
+                <h1
+                    class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500 mb-16">
+                    My Quality Services
+                </h1>
+                <p class="mt-4 text-gray-400">
+                    We put your ideas and thus your wishes in the form of a unique web project that inspires you and
+                    your customers.
+                </p>
+            </div>
+            <div class="">
+                <div class="flex items-center justify-between p-4 bg-[var(--primary-color)] rounded-lg">
+                    <div class="flex items-center space-x-4">
+                        <span class="text-white text-lg font-bold">
+                            01
+                        </span>
+                        <h2 class="text-white text-lg font-bold">
+                            Web Development
+                        </h2>
                     </div>
-                  
+                    <p class="text-white">
+                        Crafting responsive, high-performance websites with clean, scalable code to elevate your online
+                        presence. </p>
+                    <i class="fas fa-arrow-right text-white">
+                    </i>
                 </div>
-            </div>
-          
-            <div>
-                <h2 class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500 mb-16">
-                    My Education
-                </h2>
-                <div class="space-y-4">
-                    <div class="p-6 bg-[var(--accent-color)] rounded-2xl">
-                        <p class="text-[var(--primary-purple)] text-sm mb-1">2024 – Present</p>
-                        <h3 class="text-xl font-bold mb-1">Master of Computer Applications</h3>
-                        <p class="text-gray-400">Rajasthan Technical University, kota</p>
+                <div class="flex items-center justify-between p-4 bg-black border-b border-gray-700">
+                    <div class="flex items-center space-x-4">
+                        <span class="text-purple-500 text-lg font-bold">
+                            02
+                        </span>
+                        <h2 class="text-white text-lg font-bold">
+                            UI/UX Design
+                        </h2>
                     </div>
-                    <div class="p-6 bg-[var(--accent-color)] rounded-2xl">
-                        <p class="text-[var(--primary-purple)] text-sm mb-1">202 – 2024</p>
-                        <h3 class="text-xl font-bold mb-1">Bachelor of Computer Applications</h3>
-                        <p class="text-gray-400">Univery of kota, kota</p>
+                    <p class="text-gray-400">
+                        Designing intuitive, visually stunning interfaces that provide exceptional user experiences
+                        across all devices. </p>
+                    <i class="fas fa-arrow-right text-purple-500">
+                    </i>
+                </div>
+                <div class="flex items-center justify-between p-4 bg-black border-b border-gray-700">
+                    <div class="flex items-center space-x-4">
+                        <span class="text-purple-500 text-lg font-bold">
+                            03
+                        </span>
+                        <h2 class="text-white text-lg font-bold">
+                            Content Writing
+                        </h2>
                     </div>
-                
+                    <p class="text-gray-400">
+                        Optimizing websites to boost search engine rankings, drive organic traffic, and increase
+                        conversion rates. </p>
+                    <i class="fas fa-arrow-right text-purple-500">
+                    </i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--education-->
+
+    <section id="about">
+        <div class="min-h-screen flex items-center justify-center p-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl">
+
+                <div>
+                    <h2
+                        class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500 mb-16">
+                        My Experience
+                    </h2>
+                    <div class="space-y-8">
+                        <div class="bg-[var(--accent-color)] p-4 rounded-2xl ">
+                            <p class="text-[var(--primary-purple)] text-sm mb-1">July 2024 – Present</p>
+                            <h3 class="text-xl font-bold mb-1">SEO Analyst</h3>
+                            <p class="text-gray-400">WeConnect Soft Solutions Pvt. Ltd. , kota
+                            </p>
+                        </div>
+                        <div class="p-6 bg-[var(--accent-color)]  rounded-2xl">
+                            <p class="text-[var(--primary-purple)] text-sm mb-1">Dec 2023 – March 2024</p>
+                            <h3 class="text-xl font-bold mb-1">UI/UX Designing</h3>
+                            <p class="text-gray-400">Clickzy Creative Technologies</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <h2
+                        class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500 mb-16">
+                        My Education
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="p-6 bg-[var(--accent-color)] rounded-2xl">
+                            <p class="text-[var(--primary-purple)] text-sm mb-1">2024 – Present</p>
+                            <h3 class="text-xl font-bold mb-1">Master of Computer Applications</h3>
+                            <p class="text-gray-400">Rajasthan Technical University, kota</p>
+                        </div>
+                        <div class="p-6 bg-[var(--accent-color)] rounded-2xl">
+                            <p class="text-[var(--primary-purple)] text-sm mb-1">202 – 2024</p>
+                            <h3 class="text-xl font-bold mb-1">Bachelor of Computer Applications</h3>
+                            <p class="text-gray-400">Univery of kota, kota</p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    
+    </section>
 
 
 
 
 
-   <!--my skills-->
-<div class="min-h-screen">
-   <div class="text-center ">
-    <h1 class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
-     My Skills
-    </h1>
-    <p class="text-gray-400 mt-2">
-     We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.
-    </p>
-   </div>
-   <div class="flex flex-wrap justify-center mt-10 space-x-4">
-    <div class="bg-gray-900 rounded-lg p-6 text-center w-32 h-32 flex flex-col items-center justify-center">
-     <img alt="Figma logo" class="mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/dMg8c3j_LnqEm6olWzcyv3EFDfsuLmLV5GtUngZHOkI.jpg" width="50"/>
-     <p class="text-gray-300">
-      92%
-     </p>
-     <p class="text-purple-500 mt-2">
-      Figma
-     </p>
-    </div>
-    <div class="bg-gray-900 rounded-lg p-6 text-center w-32 h-32 flex flex-col items-center justify-center">
-     <img alt="Sketch logo" class="mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/JkI5YMPAV2B5-RNdG_B6UM5iISpLYMS9-LfNExqgBno.jpg" width="50"/>
-     <p class="text-gray-300">
-      80%
-     </p>
-     <p class="text-purple-500 mt-2">
-      Sketch
-     </p>
-    </div>
-    <div class="bg-gray-900 rounded-lg p-6 text-center w-32 h-32 flex flex-col items-center justify-center">
-     <img alt="XD logo" class="mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/BQXH44HDn2QL8v_kXHvkNhpIOm3k3bboWg7_VVIDtSc.jpg" width="50"/>
-     <p class="text-gray-300">
-      85%
-     </p>
-     <p class="text-purple-500 mt-2">
-      XD
-     </p>
-    </div>
-    <div class="bg-gray-900 rounded-lg p-6 text-center w-32 h-32 flex flex-col items-center justify-center">
-     <img alt="WordPress logo" class="mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/b4s_GHzG6ETsFDCZiGG7gIyrn_nbWJ83ld4H6xla6JQ.jpg" width="50"/>
-     <p class="text-gray-300">
-      99%
-     </p>
-     <p class="text-purple-500 mt-2">
-      WordPress
-     </p>
-    </div>
-    <div class="bg-gray-900 rounded-lg p-6 text-center w-32 h-32 flex flex-col items-center justify-center">
-     <img alt="React logo" class="mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/A3avLBARFaJIfsmfrnTa4uJACD0BVrescQ4jQy0IV28.jpg" width="50"/>
-     <p class="text-gray-300">
-      89%
-     </p>
-     <p class="text-purple-500 mt-2">
-      React
-     </p>
-    </div>
-    <div class="bg-gray-900 rounded-lg p-6 text-center w-32 h-32 flex flex-col items-center justify-center">
-     <img alt="JavaScript logo" class="mb-2" height="50" src="https://storage.googleapis.com/a1aa/image/avw3qM1qmiFT51hPXKIHKIqqJ8ePa5qsiLkJYyjasbs.jpg" width="50"/>
-     <p class="text-gray-300">
-      93%
-     </p>
-     <p class="text-purple-500 mt-2">
-      JavaScript
-     </p>
-    </div>
-   </div>
-</div>
-
-<!--recent work-->
-<div class="container mx-auto px-4 py-16 ">
-    <div class="text-center">
-     <h1 class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
-      My Recent Works
-     </h1>
-     <p class="mt-4 text-gray-400">
-      We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.
-     </p>
-    </div>
-    <div class="flex justify-center mt-8">
-     <button class="bg-purple-500 text-white px-4 py-2 rounded-full mx-2">
-      All
-     </button>
-     <button class="bg-black text-white px-4 py-2 rounded-full mx-2">
-      UX/UI
-     </button>
-     <button class="bg-black text-white px-4 py-2 rounded-full mx-2">
-      Branding
-     </button>
-     <button class="bg-black text-white px-4 py-2 rounded-full mx-2">
-      Apps
-     </button>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-     <div class="bg-[#1a012a] p-4 rounded-lg">
-      <img alt="Screenshot of Deloitte project" class="rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/bmjbHKENygoiBzoNdubTELQScnjxwWk7VzMnKVzPQZc.jpg" width="600"/>
-     </div>
-     <div class="bg-[#1a012a] p-4 rounded-lg">
-      <img alt="Screenshot of Sebastian Camargo project" class="rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/BC-e6NGhpw40ZWpzhJQerBzNivBDNW-mjplRz5pAx2s.jpg" width="600"/>
-     </div>
-    </div>
-   </div>
-
-
-   <!--recent blogs-->
-   <div class="container mx-auto px-4 py-16 min-h-screen">
-    <div class="text-center mb-12">
-     <h2 class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
-      Recent Blogs
-     </h2>
-     <p class="text-gray-400 mt-4">
-      We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.
-     </p>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-     <div class="bg-gray-800 rounded-lg overflow-hidden">
-      <img alt="A laptop with a purple hue" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/68bMNv3Hax-V5DsJ_I647PiM0IselO9WLcBqwW_nT4w.jpg" width="600"/>
-      <div class="p-4">
-       <span class="bg-purple-600 text-xs text-white px-2 py-1 rounded-full">
-        BUSINESS
-       </span>
-       <div class="mt-4">
-        <div class="flex items-center text-gray-400 text-sm">
-         <i class="far fa-calendar-alt mr-2">
-         </i>
-         Oct 01, 2022
-         <i class="far fa-comment ml-4 mr-2">
-         </i>
-         Comment
-        </div>
-        <h3 class="text-lg font-semibold mt-2">
-         The Role Of Technology In Modern...
-        </h3>
-       </div>
-      </div>
-     </div>
-     <div class="bg-gray-800 rounded-lg overflow-hidden">
-      <img alt="A person working on a laptop" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/57-hESg2faatb9p7TAf6Q7TpBWWZEc83lf77DE7Wct4.jpg" width="600"/>
-      <div class="p-4">
-       <span class="bg-purple-600 text-xs text-white px-2 py-1 rounded-full">
-        DEVELOPMENT
-       </span>
-       <div class="mt-4">
-        <div class="flex items-center text-gray-400 text-sm">
-         <i class="far fa-calendar-alt mr-2">
-         </i>
-         Nov 01, 2022
-         <i class="far fa-comment ml-4 mr-2">
-         </i>
-         Comment
-        </div>
-        <h3 class="text-lg font-semibold mt-2">
-         The Role Of Technology In Modern...
-        </h3>
-       </div>
-      </div>
-     </div>
-     <div class="bg-gray-800 rounded-lg overflow-hidden">
-      <img alt="A person working in a dimly lit room" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/u5yYHlUEPqgWEP4X7OqmE2mpkDYbxzfWPLXvgBa_itY.jpg" width="600"/>
-      <div class="p-4">
-       <span class="bg-purple-600 text-xs text-white px-2 py-1 rounded-full">
-        PORTFOLIO
-       </span>
-       <div class="mt-4">
-        <div class="flex items-center text-gray-400 text-sm">
-         <i class="far fa-calendar-alt mr-2">
-         </i>
-         Dec 01, 2022
-         <i class="far fa-comment ml-4 mr-2">
-         </i>
-         Comment
-        </div>
-        <h3 class="text-lg font-semibold mt-2">
-         Digital Marketo To Their New Off...
-        </h3>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-   
-
-   <!--contact me-->
-   <div class="min-min-h-screen flex items-center justify-center min-h-screen ">
-    <div class="bg-[var(--accent-color)] p-8 rounded-lg shadow-lg w-full max-w-4xl flex flex-col md:flex-row">
-        <div class="md:w-1/2 p-4">
-            <h1 class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">Let's work together!</h1>
-            <p class="text-gray-300 mb-8">I design and code beautifully simple things and I love what I do. Just simple like that!</p>
-            <form>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                    <input type="text" placeholder="First name" class="bg-black text-white p-3 rounded-md">
-                    <input type="text" placeholder="Last name" class="bg-black text-white p-3 rounded-md">
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                    <input type="email" placeholder="Email address" class="bg-black text-white p-3 rounded-md">
-                    <input type="text" placeholder="Phone number" class="bg-black text-white p-3 rounded-md">
-                </div>
-                <div class="mb-4">
-                    <select class="bg-black text-white p-3 rounded-md w-full">
-                        <option>Select an option</option>
-                    </select>
-                </div>
-                <div class="mb-4">
-                    <textarea placeholder="Message" class="bg-black text-white p-3 rounded-md w-full h-32"></textarea>
-                </div>
-            </form>
-        </div>
-        <div class="md:w-1/2 p-4 flex flex-col justify-center">
-            <div class="flex items-center mb-4">
-                <div class="bg-purple-500 p-3 rounded-full">
-                    <i class="fas fa-phone text-white"></i>
-                </div>
-                <div class="ml-4">
-                    <p class="text-gray-400">Phone</p>
-                    <p class="text-white">+01 123 654 8096</p>
-                </div>
+    <!--my skills-->
+    <section id="skills">
+        <div class="min-h-screen bg-[var(--accent-color)] flex  flex-col justify-center">
+            <div class="text-center ">
+                <h1
+                    class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500 mb-16">
+                    My Skills
+                </h1>
+                <p class="text-gray-400 mt-2">
+                    We put your ideas and thus your wishes in the form of a unique web project that inspires you and
+                    your
+                    customers.
+                </p>
             </div>
-            <div class="flex items-center mb-4">
-                <div class="bg-purple-500 p-3 rounded-full">
-                    <i class="fas fa-envelope text-white"></i>
+            <div class="flex flex-wrap justify-center mt-10 space-x-4">
+                <div
+                    class="bg-[var(--accent-color-2)] rounded-lg p-6 text-center w-48 h-48 flex flex-col items-center justify-center mb-8">
+                    <img alt="Figma logo" class="mb-2" height="70" width="100"
+                        src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000">
+
+                    <p class="text-gray-300">
+                        92%
+                    </p>
+                    <p class="text-purple-500 mt-2">
+                        FIGMA
+                    </p>
                 </div>
-                <div class="ml-4">
-                    <p class="text-gray-400">Email</p>
-                    <p class="text-white">gerolddesign@mail.com</p>
+                <div
+                    class="bg-[var(--accent-color-2)] rounded-lg p-6 text-center w-48 h-48 mb-8 flex flex-col items-center justify-center">
+                    <img alt="html logo" class="mb-2" height="70" width="100"
+                        src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000">
+
+                    <p class="text-gray-300">
+                        90%
+                    </p>
+                    <p class="text-purple-500 mt-2">
+                        HTML
+                    </p>
                 </div>
+                <div
+                    class="bg-[var(--accent-color-2)] rounded-lg p-6 text-center w-48 h-48 mb-8 flex flex-col items-center justify-center">
+                    <img alt="css logo" class="mb-2" height="70" width="100"
+                        src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000">
+
+                    <p class="text-gray-300">
+                        86%
+                    </p>
+                    <p class="text-purple-500 mt-2">
+                        CSS
+                    </p>
+                </div>
+                <div
+                    class="bg-[var(--accent-color-2)] rounded-lg p-6 text-center w-48 h-48 mb-8 flex flex-col items-center justify-center">
+                    <img alt="javascript logo" class="mb-2" height="70" width="100"
+                        src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000">
+
+                    <p class="text-gray-300">
+                        91%
+                    </p>
+                    <p class="text-purple-500 mt-2">
+                        JAVASCRIPT
+                    </p>
+                </div>
+                <div
+                    class="bg-[var(--accent-color-2)] rounded-lg p-6 text-center w-48 h-48 mb-8 flex flex-col items-center justify-center">
+                    <img alt="wordpress logo" class="mb-2" height="70" width="100"
+                        src="https://img.icons8.com/?size=100&id=13664&format=png&color=000000">
+
+                    <p class="text-gray-300">
+                        93%
+                    </p>
+                    <p class="text-purple-500 mt-2">
+                        WORDPRESS
+                    </p>
+                </div>
+
+
             </div>
-            <div class="flex items-center mb-4">
-                <div class="bg-purple-500 p-3 rounded-full">
-                    <i class="fas fa-map-marker-alt text-white"></i>
+            <div class="flex flex-wrap justify-center mt-10 space-x-4">
+
+                <div
+                    class="bg-[var(--accent-color-2)] rounded-lg p-6 text-center mb-8 w-48 h-48 flex flex-col items-center justify-center">
+                    <img alt="java logo" class="mb-2" height="70" width="100"
+                        src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000">
+
+                    <p class="text-gray-300">
+                        80%
+                    </p>
+                    <p class="text-purple-500 mt-2">
+                        JAVA
+                    </p>
                 </div>
-                <div class="ml-4">
-                    <p class="text-gray-400">Address</p>
-                    <p class="text-white">Warne Park Street Pine, FL 33157, New York</p>
+                <div
+                    class="bg-[var(--accent-color-2)] rounded-lg p-6 text-center mb-8 w-48 h-48 flex flex-col items-center justify-center">
+                    <img alt="php logo" class="mb-2" height="70" width="100"
+                        src="https://img.icons8.com/?size=100&id=UGYn5TapNioV&format=png&color=000000">
+
+                    <p class="text-gray-300">
+                        83%
+                    </p>
+                    <p class="text-purple-500 mt-2">
+                        PHP
+                    </p>
                 </div>
+                <div
+                    class="bg-[var(--accent-color-2)] rounded-lg p-6 text-center mb-8 w-48 h-48 flex flex-col items-center justify-center">
+                    <img alt="musql logo" class="mb-2" height="70" width="100"
+                        src="https://img.icons8.com/?size=100&id=QeIg9siFKGgp&format=png&color=000000">
+
+                    <p class="text-gray-300">
+                        85%
+                    </p>
+                    <p class="text-purple-500 mt-2">
+                        MYSQL
+                    </p>
+                </div>
+                <div
+                    class="bg-[var(--accent-color-2)] rounded-lg p-6 text-center mb-8 w-48 h-48 flex flex-col items-center justify-center">
+                    <img alt="bootstrap logo" class="mb-2" height="70" width="100"
+                        src="https://img.icons8.com/?size=100&id=84710&format=png&color=000000">
+
+                    <p class="text-gray-300">
+                        90%
+                    </p>
+                    <p class="text-purple-500 mt-2">
+                        BOOTSTRAP
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--recent work-->
+    <section id="project">
+        <div class="container mx-auto px-4 py-16 ">
+            <div class="text-center">
+                <h1
+                    class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
+                    My Recent Works
+                </h1>
+                <p class="mt-4 text-gray-400">
+                    We put your ideas and thus your wishes in the form of a unique web project that inspires you and you
+                    customers.
+                </p>
+            </div>
+            <div class="flex justify-center mt-8">
+                <button class="bg-[var(--primary-color)] text-white px-4 py-2 rounded-full mx-2">
+                    All
+                </button>
+                <button class="bg-black hover:bg-[var(--secondary-color)] text-white px-4 py-2 rounded-full mx-2">
+                    UX/UI
+                </button>
+
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 m-12">
+
+                <div class="bg-[#1a012a] p-8 rounded-lg ">
+                    <img alt="Screenshot of Deloitte project" class="rounded-lg" height="1000" width="600"
+                        src="document/modievent.png"  />
+
+                    <div
+                        class=" bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] p-4 rounded-xl flex justify-between items-center mt-10">
+                        <div>
+                            <h3 class="text-white font-bold text-3xl ">Modi Event & Creation</h3>
+
+                            <p class="text-purple-200 text-l">project was on about a Event Managment Company.</p>
+                        </div>
+
+<img src="https://img.icons8.com/?size=100&id=63795&format=png&color=000000" width="50px">
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
             </div>
         </div>
-    </div>
-</div>
-
-   <!--footer-->
-   <footer class="w-full bg-[var(--accent-color)] py-8 mt-60">
-    <div class="container mx-auto text-center">
-     <img alt="Company Logo" class="mx-auto mb-4" height="50" src="https://storage.googleapis.com/a1aa/image/ymIIO2RI-_2I10i30bLyW5GX9wAdyS2e7UeB50fE7F8.jpg" width="50"/>
-     <nav class="mb-4">
-      <a class="text-white mx-4" href="#">
-       About
-      </a>
-      <a class="text-white mx-4" href="#">
-       Services
-      </a>
-      <a class="text-white mx-4" href="#">
-       Portfolios
-      </a>
-      <a class="text-white mx-4" href="#">
-       Contact
-      </a>
-     </nav>
-     <p class="text-gray-400">
-      © 2024 All rights reserved by
-      <span class="text-white">
-       ThemeJunction
-      </span>
-     </p>
-    </div>
-   </footer>
+    </section>
 
 
-  
- </body>
+    <!--contact me-->
+    <section id="contact">
+        <div class="min-min-h-screen flex items-center justify-center min-h-screen ">
+            <div class="bg-[var(--accent-color)] p-8 rounded-lg shadow-lg w-full max-w-4xl flex flex-col md:flex-row">
+                <div class="md:w-1/2 p-4">
+                    <h1
+                        class="text-4xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500 mb-8">
+                        Let's work together!</h1>
+                    <p class="text-gray-300 mb-10">I design and code beautifully simple things and I love what I do.
+                        Just
+                        simple like that!</p>
+                    <form>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                            <input type="text" placeholder="First name" class="bg-black text-white p-3 rounded-md">
+                            <input type="text" placeholder="Last name" class="bg-black text-white p-3 rounded-md">
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                            <input type="email" placeholder="Email address" class="bg-black text-white p-3 rounded-md">
+                            <input type="text" placeholder="Phone number" class="bg-black text-white p-3 rounded-md">
+                        </div>
+                        <div class="mb-4">
+                            <select class="bg-black text-white p-3 rounded-md w-full">
+                                <option>Select an option</option>
+                                <option>Web-Development</option>
+                                <option>UI/Ux Designing</option>
+                                <option>SEO Analyst</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <textarea placeholder="Message"
+                                class="bg-black text-white p-3 rounded-md w-full h-32"></textarea>
+                        </div>
+                        <button
+                            class="text-white py-2 px-4 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)]  "
+                            href="#">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                <div class="md:w-1/2 p-4 flex flex-col justify-center">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] p-3 rounded-full">
+                            <i class="fas fa-phone text-white"></i>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-gray-400">Phone</p>
+                            <p class="text-white">+91 9571196234</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] p-3 rounded-full">
+                            <i class="fas fa-envelope text-white"></i>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-gray-400">Email</p>
+                            <p class="text-white">asthamodi185@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] p-3 rounded-full">
+                            <i class="fas fa-map-marker-alt text-white"></i>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-gray-400">Address</p>
+                            <p class="text-white">Near Bus Stand, Nayapura kota (Raj.)</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="w-full bg-[var(--accent-color)] py-8 mt-60">
+        <div class="container mx-auto text-center">
+            <img alt="Company Logo" class="mx-auto mb-4" height="50"
+                src="https://storage.googleapis.com/a1aa/image/ymIIO2RI-_2I10i30bLyW5GX9wAdyS2e7UeB50fE7F8.jpg"
+                width="50" />
+            <nav class="mb-4">
+                <a class="text-white mx-4 hover:text-[var(--primary-color)]" href="#home">
+                    About
+                </a>
+                <a class="text-white mx-4 hover:text-[var(--primary-color)]" href="#service">
+                    Services
+                </a>
+                <a class="text-white mx-4 hover:text-[var(--primary-color)]" href="#project">
+                    Projects
+                </a>
+                <a class="text-white mx-4 hover:text-[var(--primary-color)]" href="#contact">
+                    Contact
+                </a>
+            </nav>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
 </html>
